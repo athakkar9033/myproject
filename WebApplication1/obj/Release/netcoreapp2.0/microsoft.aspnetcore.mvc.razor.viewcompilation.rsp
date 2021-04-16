@@ -1,0 +1,12 @@
+D:\myproject\WebApplication1\WebApplication1
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=WebApplication1
+--content-root=D:\myproject\WebApplication1\WebApplication1
+--file=D:\myproject\WebApplication1\WebApplication1\Views\Home\About.cshtml
+--file=D:\myproject\WebApplication1\WebApplication1\Views\Home\Contact.cshtml
+--file=D:\myproject\WebApplication1\WebApplication1\Views\Home\Index.cshtml
+--file=D:\myproject\WebApplication1\WebApplication1\Views\Shared\Error.cshtml
+--file=D:\myproject\WebApplication1\WebApplication1\Views\Shared\_Layout.cshtml
+--file=D:\myproject\WebApplication1\WebApplication1\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\myproject\WebApplication1\WebApplication1\Views\_ViewImports.cshtml
+--file=D:\myproject\WebApplication1\WebApplication1\Views\_ViewStart.cshtml
