@@ -9,3 +9,5 @@ D:\myproject\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplicat
 D:\myproject\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
 D:\myproject\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb
 D:\myproject\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojAssemblyReference.cache
+D:\myproject\myproject\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+D:\myproject\myproject\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb
