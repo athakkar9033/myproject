@@ -8,11 +8,12 @@ pipeline {
                     properties([
                             parameters([
                                 [$class: 'ChoiceParameter', 
-                                    choiceType: 'PT_SINGLE_SELECT', 
-                                    description: 'Select the Environemnt from the Dropdown List']])
+                                    choices: ['ONE', 'TWO'], 
+                                    name: 'PARAMETER_01']])
                         ])
                     }
                 }
+            
         stage('prod') {
             steps {
                 echo 'Building..'
