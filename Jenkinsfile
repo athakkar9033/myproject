@@ -9,7 +9,7 @@ pipeline {
         }
         stage('test1') {
             steps {
-                echo $TEST
+                echo $BRANCH_NAME
             }
         }
         stage('test3') {
