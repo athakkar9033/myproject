@@ -2,33 +2,26 @@ pipeline {
     agent any
 
     stages {
-        stage('Parameters'){
-                steps {
-                    script {
-                    properties([
-                            parameters([
-                                [$class: 'ChoiceParameter', 
-                                    choices: ['ONE', 'TWO'], 
-                                    name: 'PARAMETER_01']])
-                        ])
+        stage('test') {
+            steps {
+                sh 'echo hello'
+            }
+        }
+        stage('test1') {
+            steps {
+                sh 'echo $TEST'
+            }
+        }
+        stage('test3') {
+            steps {
+                script {
+                    if (env.BRANCH_NAME == 'master') {
+                        echo 'I only execute on the master branch'
+                    } else {
+                        echo 'I execute elsewhere'
                     }
                 }
-            
-        stage('prod') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('UAT') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Dev') {
-            steps {
-                echo 'Deploying....'
             }
         }
     }
-}
 }
